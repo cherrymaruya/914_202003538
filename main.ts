@@ -43,6 +43,8 @@ input.onButtonPressed(Button.AB, function () {
         . # # # .
         `)
     basic.pause(200)
+    basic.showNumber(0.03 * steps)
+    basic.showString("cal")
 })
 input.onButtonPressed(Button.B, function () {
     basic.showNumber(0.7 * steps)
